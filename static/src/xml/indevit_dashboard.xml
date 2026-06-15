@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="indevit.Dashboard" owl="1">
+        <div class="o_indevit_dashboard d-flex align-items-center justify-content-center" style="min-height: 80vh;">
+            <div class="text-center">
+                <h1 class="display-3 fw-bold" style="color: #875A7B;">
+                    Bienvenido a Indevit
+                </h1>
+                <p class="lead mt-3" style="color: #6c757d; max-width: 600px; margin: 0 auto;">
+                    Este es el modulo principal de Indevit. Desde aqui podras gestionar todas las funcionalidades de tu aplicacion.
+                </p>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_indevit_dashboard" model="ir.actions.client">
+        <field name="name">Bienvenido a Indevit</field>
+        <field name="tag">indevit.dashboard</field>
+        <field name="target">main</field>
+    </record>
+
+    <menuitem id="menu_indevit_root" name="Indevit" sequence="10"/>
+    <menuitem id="menu_indevit_dashboard" name="Inicio" parent="menu_indevit_root" action="action_indevit_dashboard"/>
+</odoo>
